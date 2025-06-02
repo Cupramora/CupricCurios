@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cupric Curios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupricCurios</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            width: 50%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Cupric Curios</h1>
-    <p>Download my STL files below:</p>
-
-    <h2>Example Model</h2>
-    <img src="images/example.jpg" alt="Example STL Preview" width="300">
-    <p><a href="stl/example.stl" download>Download STL File</a></p>
+    <h1>CupricCurios STL Collection</h1>
+    <div class="container">
+        <div class="column">
+            <h2>STL Files</h2>
+            <ul>
+                <li><a href="files/file1.stl">Download File 1</a></li>
+                <li><a href="files/file2.stl">Download File 2</a></li>
+                <li><a href="files/file3.stl">Download File 3</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Final Prints</h2>
+            <img src="images/print1.jpg" alt="Printed Model 1">
+            <img src="images/print2.jpg" alt="Printed Model 2">
+            <img src="images/print3.jpg" alt="Printed Model 3">
+        </div>
+    </div>
 </body>
 </html>
